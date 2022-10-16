@@ -217,8 +217,8 @@ $('#switchmore').on('click', function () {
         $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
     } else {
         $('#container').attr('class', 'container');
-        $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+        $("#change").html("El&nbsp;Psy&nbsp;Kongroo&nbsp;!");
+        $("#change1").html("一切都是命运石之门的选择！");
     }
 });
 
@@ -266,8 +266,8 @@ window.addEventListener('load', function () {
         if (window.innerWidth <= 990) {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
-            $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+            $("#change").html("El&nbsp;Psy&nbsp;Kongroo&nbsp;!");
+            $("#change1").html("一切都是命运石之门的选择！");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
